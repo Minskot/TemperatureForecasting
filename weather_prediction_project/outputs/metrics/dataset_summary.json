@@ -1,0 +1,78 @@
+{
+  "n_rows": 3654,
+  "n_feature_columns": 163,
+  "n_stations": 18,
+  "stations": [
+    "BASEL",
+    "BUDAPEST",
+    "DE_BILT",
+    "DRESDEN",
+    "DUSSELDORF",
+    "HEATHROW",
+    "KASSEL",
+    "LJUBLJANA",
+    "MAASTRICHT",
+    "MALMO",
+    "MONTELIMAR",
+    "MUENCHEN",
+    "OSLO",
+    "PERPIGNAN",
+    "ROMA",
+    "SONNBLICK",
+    "STOCKHOLM",
+    "TOURS"
+  ],
+  "start_date": "2000-01-01",
+  "end_date": "2010-01-01",
+  "missing_values": 0,
+  "sentinel_values": 0,
+  "physical_range_violations": 36,
+  "duplicate_dates": 0,
+  "invalid_values_replaced": 36,
+  "physical_range_rules": {
+    "_pressure": [
+      0.9,
+      1.1
+    ],
+    "_humidity": [
+      0.0,
+      1.05
+    ],
+    "_cloud_cover": [
+      0.0,
+      8.0
+    ],
+    "_precipitation": [
+      0.0,
+      null
+    ],
+    "_sunshine": [
+      0.0,
+      null
+    ],
+    "_wind_speed": [
+      0.0,
+      null
+    ],
+    "_wind_gust": [
+      0.0,
+      null
+    ],
+    "_global_radiation": [
+      0.0,
+      null
+    ],
+    "_temp_mean": [
+      -40.0,
+      50.0
+    ],
+    "_temp_min": [
+      -40.0,
+      50.0
+    ],
+    "_temp_max": [
+      -40.0,
+      50.0
+    ]
+  }
+}
